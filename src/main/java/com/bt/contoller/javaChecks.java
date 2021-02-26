@@ -1,5 +1,5 @@
-import org.springframework.boot.SpringApplication;
-@ComponentScan(exclude=pooja.class,scanBasePackages={"net.javabeat"})
+
+@ComponentScan(scanBasePackages={"net.javabeat"})
 @SpringBootApplication
 public class javaChecks {
 private int x ,y ,z,apiCount;

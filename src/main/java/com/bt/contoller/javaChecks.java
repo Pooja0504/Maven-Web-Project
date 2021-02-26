@@ -3,6 +3,7 @@ import org.springframework.boot.SpringApplication;
 @SpringBootApplication
 public class ResourceLeak {
 private int x ,y ,z,apiCount;
+	boolean b;
 		
 	 public static void main(String args[]) {  
 	     SpringApplication.run(SpringBootApplicationAndComponentScanNotBeUsedInDefaultPackage.class, args);
@@ -30,13 +31,13 @@ private int x ,y ,z,apiCount;
 	
 	  public boolean isActive()
 		  {
-		    return x;
+		    return b;
 		  }
 
 	  		
 		  public void setActive(boolean b)
 		  {
-		    this.y = b;
+		    this.b = b;
 		  }
 		  
 		  

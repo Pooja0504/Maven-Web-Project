@@ -4,7 +4,7 @@ class pooja implements Externalizable {
     String name;
     int year;
  
-    Car(String n, int y)
+    pooja(String n, int y)
     {
         this.name = n;
         this.year = y;

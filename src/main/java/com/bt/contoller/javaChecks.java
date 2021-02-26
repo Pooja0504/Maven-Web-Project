@@ -1,7 +1,4 @@
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.ConfigurableApplicationContext;
-@ComponentScan
-@SpringBootApplication
+
 public class javaChecks {
 private int x ,y ,z,apiCount;
 	boolean b;

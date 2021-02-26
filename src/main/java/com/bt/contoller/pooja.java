@@ -1,5 +1,5 @@
 import java.io.*;
-class pooja implements Externalizable {
+Abstract class pooja implements Externalizable {
     static int age;
     String name;
     int year;

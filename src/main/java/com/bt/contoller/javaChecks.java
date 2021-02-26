@@ -1,4 +1,7 @@
-
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.ConfigurableApplicationContext;
 @ComponentScan(scanBasePackages={"net.javabeat"})
 @SpringBootApplication
 public class javaChecks {
